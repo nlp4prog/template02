@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<title>1st Workshop on NLI</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#introduction" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Introduction</a>
+  <a href="#callforpapers" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Call For Papers</a>
+  <a href="#importantdates" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Important Dates</a>
+  <a href="#keynotespeakers" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Keynote Speakers</a>
+  <a href="#acceptedpapers" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Accepted Papers</a>
+  <a href="#schedule" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Schedule</a>
+  <a href="#pc" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Program Committee</a>
+  <a href="#organizers" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Organizers</a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#introduction" class="w3-bar-item w3-button">Introduction</a>
+    <a href="#callforpapers" class="w3-bar-item w3-button">Call For Papers</a>
+    <a href="#importantdates" class="w3-bar-item w3-button">Important Dates</a>
+    <a href="#keynotespeakers" class="w3-bar-item w3-button">Keynote Speakers</a>
+    <a href="#acceptedpapers" class="w3-bar-item w3-button">Accepted Papers</a>
+    <a href="#schedule" class="w3-bar-item w3-button">Schedule</a>
+    <a href="#pc" class="w3-bar-item w3-button">Program Committee</a>
+    <a href="#organizers" class="w3-bar-item w3-button">Organizers</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="images/seattle.jpg" style="width:100%;min-height:200px;max-height:550px;">
+  <div class="w3-container w3-display-topmiddle w3-margin-top">
+    <h3>
+      <p align="center">
+        <b>
+          <font color="white">FIRST WORKSHOP ON  NATURAL LANGUAGE INTERFACES (CHALLENGES AND PROMISES)</font>
+        </b>
+      </p>
+    </h3>
+    <h5>
+      <p align="center">
+        <font color="white">Held in conjunction with ACL 2020 <br/> July 10th, Seattle, Washington</font>
+      </p>
+    </h5>
+  </div>
+</div>
+
+<!-- Introduction -->
+<div class="w3-row-padding w3-padding-64 w3-center" id="introduction">
+
+<div class="w3-content">
+<h2>Introduction</h2>
+<p align="justify">Natural language interfaces (NLIs) have been the "holy grail" of human-computer interaction and information search for decades. However, early attempts in building NLIs to databases did not achieve the expected success due to limitations in language understanding capability, extensibility and explainability, among others. The last 5 years have seen a major resurgence of NLIs in the form of virtual assistants, dialogue systems, and semantic parsing and question answering systems. The horizon of NLIs has also been significantly expanding beyond databases to, e.g., knowledge bases, robots, Internet of Things, Web service APIs, and more.
+<br/>
+<br/>
+This has been driven by a number of profound revolutions: (1) In the big data era, and as digitalization continues to grow, there is a rapidly growing demand for interfaces that connect users to the ever-expanding data sources, services and devices in the computing world. NLIs represent a very promising technology to accomplish that as they provide users with a unified way to interact with the entire computing world using language, their natural way of communication, and (2) the renaissance and development of deep learning have brought us from rule and feature engineering to a world of neural architecture and data engineering, promising better language understanding, adaptability and scalability. As a result, many commercial systems like Amazon Alexa, Apple Siri, and Microsoft Cortana, as well as academic studies on NLIs to a wide range of backends have emerged in recent years.
+<br/>
+<br/> 
+Many research communities have been advancing NLI technologies in recent years: NLP and machine learning, data management and databases, programming language, human-machine interaction, among others. This workshop aims to bring together researchers and practitioners from related communities to review the recent advances and revisit the challenges that led to the failure of earlier NLI systems, and discuss what the remaining challenges are and what to expect in the short- and long-term future.<br/><br></p>
+</div>
+
+<!-- Call For Papers -->
+<div class="w3-row-padding w3-padding-64 w3-center w3-theme-l1" id="callforpapers">
+
+<div class="w3-content">
+<h2>Call For Papers</h2>
+
+<p align="justify">This workshop aims to bring together researchers and practitioners from different communities related to NLIs. As such, the workshop welcomes and covers a wide range of topics around NLIs, including (non-exclusively):
+ 
+<ul style="text-align: justify;">
+<li>  
+<b>Linguistic analysis and modeling.</b> What are the linguistic characteristics of human-machine interaction via NLIs? How to develop better models to accommodate and leverage such characteristics?
+</li>
+
+<li>
+<b>Interactivity, continuous learning, and personalization.</b> How to enable NLIs to interact with users to resolve the knowledge gaps between them for better accuracy and transparency? Can NLIs learn from interactions to reduce human intervention over time?  How can NLIs (learn to) be customized and adapt to user preferences? Interaction design, faithful generation, learning from user feedback, online learning.
+</li>
+
+<li>
+<b>Data collection and crowdsourcing.</b> Modern machine learning models are data-hungry while data collection for NLIs are particularly expensive because of the domain expertise needed for formal meaning representation and grounding. How to collect data for NLIs at scale with low cost?
+</li>
+
+<li>
+<b>Scalability, adaptability, and portability.</b> How to construct NLIs that can reliably and efficiently operate at a large scale (e.g., on billion-scale knowledge graphs)? How to construct NLIs that can simultaneously support multiple inter-connected domains of possibly different nature? How to transfer knowledge learned from existing domains to help learning in new domains?
+</li>
+
+<li>
+<b>Explainability and trustworthiness.</b> How to make the reasoning process and the results explainable and trustworthy to users? How to help users understand how an answer is obtained or a command is executed?
+</li> 
+
+<li>
+<b>Privacy.</b> How to ensure NLIs are compliant with privacy constraints? How to train, monitor, and debug NLIs within the compliance boundary?
+</li>
+
+<li>
+<b>Evaluation and user study.</b> How to systematically evaluate different usability aspects of an NLI as perceived by users? What are the protocols for conducting a reproducible user study? Whether there is significant gap between in vitro and in vivo evaluation and how to bridge that?</li></ul></p>
+ 
+<h3>Submission Guidelines</h3> 
+<p align="justify">
+We welcome two types of papers: regular workshop papers and cross-submissions. Only regular workshop papers will be included in the workshop proceedings. All submissions should be in PDF format and made through the Softconf website set up for this workshop (<a href="https://www.softconf.com/acl2020/nli/">https://www.softconf.com/acl2020/nli/</a>).
+</p>
+
+<p align="justify">
+In line with the ACL main conference policy, camera-ready versions of papers will be given one additional page of content.
+</p>
+
+<ul style="text-align: justify;">
+<li><b>Regular workshop papers</b>: Authors should submit a long paper of up to 8 pages, with unlimited pages for references (references only; appendix should be included in the main text and counted towards the page limit), or a short paper of up to 4 pages, with unlimited pages for references, following the ACL 2019 formatting requirements (see the ACL 2020 Call For Papers for reference: <a href="https://acl2020.org/calls/papers/">https://acl2020.org/calls/papers/</a>). The reported research should be substantially original. All submissions will be reviewed in a single track, regardless of length. Accepted papers will be presented as posters, and best papers may be given the opportunity for a brief talk to introduce their work. Reviewing will be double-blind, and thus no author information should be included in the papers; self-reference that identifies the authors should be avoided or anonymised. Accepted papers will appear in the workshop proceedings.</li>
+<li><b>Cross-submissions</b>: In addition to previously unpublished work, we also solicit papers on relevant topics that have appeared in a non-NLP venue (e.g., workshop or conference papers at NeurIPS/<wbr>ICML/<wbr>AAAI/<wbr>SIGKDD/<wbr>ICRA/<wbr>VLDB/<wbr>WWW/<wbr>SIGIR/<wbr>ISWC/<wbr>SIGCHI, among others). Accepted cross-submissions will be presented as posters, with an indication of original venue, but will not be included in the workshop proceedings. Cross-submissions are ideal for related work which would benefit from exposure to the NLI audience. Submission length is determined by the original venue. Interested authors should submit their papers in PDF format through the NLI Softconf website (<a href="https://www.softconf.com/acl2020/nli/">https://www.softconf.com/acl2020/nli/</a>), with a note on the original venue. Papers in this category do not need to follow the ACL format and selection will be solely determined by the organising committee.</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<!-- Important Dates Row -->
+<div class="w3-row-padding w3-padding-64" id="importantdates">
+
+<div class="w3-content">
+<h2>Important Dates</h2>
+</div>
+
+<div class="w3-content">
+  <div class="w3-container">
+    <p>
+      <ul style="text-align: justify; display: inline-block;">
+       <li><b>Workshop Paper Due Date:</b> <del>April 6, 2020</del> April 20, 2020 (deferred due to the pandemic) <br/></li>
+       <li><b>Notification of acceptance:</b> <del>May 4, 2020</del> May 11, 2020 <br/></li>
+       <li><b>Camera-ready papers due:</b> <del>May 18, 2020</del> May 22, 2020 <br/></li>
+        <li><b>Workshop date:</b> July 10, 2020</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+</div>
+
+<!-- Keynote Speakers Container -->
+<div class="w3-container w3-padding-64 w3-center w3-theme-l1" id="keynotespeakers">
+<h2>Keynote Speakers</h2>
+
+<div>
+    <div class="w3-center">
+      <img src="images/joycechai.jpeg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="http://www.cse.msu.edu/~jchai/"><p><b>Joyce Chai</b></p></a>
+      <p>University of Michigan</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Joyce Chai is a Professor in the Electrical Engineering and Computer Science Department at the University of Michigan. Previously when she was a Professor at Michigan State University, she was awarded the William Beal Outstanding Faculty Award in 2018. She holds a Ph.D. in Computer Science from Duke University. She was a Research Staff Member at IBM T. J. Watson Research Center. Her research interests include natural language processing, situated dialogue agents, human-robot communication, artificial intelligence, and intelligent user interfaces. Her recent work is focused on situated language processing to facilitate natural communication with robots and other artificial agents. She served as Program Co-chair for the Annual Meeting of the Special Interest Group in Dialogue and Discourse (SIGDIAL) in 2011, the ACM International Conference on Intelligent User Interfaces (IUI) in 2014, and the Annual Meeting of the North America Chapter of Association of Computational Linguistics (NAACL) in 2015. She received a National Science Foundation CAREER Award in 2004 and the Best Long Paper Award from the Annual Meeting of Association of Computational Linguistics (ACL) in 2010.</p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/Jag-web.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://web.eecs.umich.edu/~jag/"><p><b>H V Jagadish</b></p></a>
+      <p> University of Michigan
+      </p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/monica-joel.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://suif.stanford.edu/~lam/"><p><b>Monica S. Lam</b></p></a>
+      <p>Stanford University</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Monica Lam is a Professor in the Computer Science Department at Stanford University since 1988. She is the faculty director of the Open Virtual Assistant Lab (OVAL). She received a B.Sc. from University of British Columbia in 1980 and a Ph.D. in Computer Science from Carnegie Mellon University in 1987. Monica is a Member of the National Academy of Engineering and Association of Computing Machinery (ACM) Fellow. She is a co-author of the popular text Compilers, Principles, Techniques, and Tools (2nd Edition), also known as Dragon book. She received an NSF Young Investigator award in 1992, the ACM Most Influential Programming Language Design and Implementation Paper Award in 2001, an ACM SIGSOFT Distinguished Paper Award in 2002, and the ACM Programming Language Design and Implementation Best Paper Award in 2004. She was the author of two of the papers in "20 Years of PLDI--a Selection (1979-1999)", and one paper in the "25 Years of the International Symposia on Computer Architecture". She received the University of British Columbia Computer Science 50th Anniversary Research Award in 2018.<br/><br/>
+      </p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/percy2.jpeg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://cs.stanford.edu/~pliang/"><p><b>Percy Liang</b></p></a>
+      <p>Stanford University</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Percy Liang is an Associate Professor of Computer Science at Stanford University (B.S. from MIT, 2004; Ph.D. from UC Berkeley, 2011). His research spans machine learning and natural language processing, with the goal of developing trustworthy agents that can communicate effectively with people and improve over time through interaction. Specific topics include question answering, dialogue, program induction, interactive learning, and reliable machine learning. His awards include the IJCAI Computers and Thought Award (2016), an NSF CAREER Award (2016), a Sloan Research Fellowship (2015), and a Microsoft Research Faculty Fellowship (2014).</p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/lsz_sm.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://www.cs.washington.edu/people/faculty/lsz"><p><b>Luke Zettlemoyer</b></p></a>
+      <p> University of Washington & Facebook AI Research (FAIR)
+      </p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Luke Zettlemoyer is an Associate Professor in the Paul G. Allen School of Computer Science & Engineering at the University of Washington, and a Research Scientist at Facebook. His research focuses on empirical methods for natural language understanding, and involves designing machine learning algorithms and building large datasets. Honors include multiple paper awards, a PECASE award, and an Allen Distinguished Investigator Award. Luke received his PhD from MIT and was a postdoc at the University of Edinburgh.</p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/imed.jpeg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://www.linkedin.com/in/imed-zitouni-78819a2/"><p><b>Imed Zitouni</b></p></a>
+      <p> Google
+      </p>
+    </div>
+</div>
+<br/>
+<br/>
+</div>
+
+<!-- Accepter Papers Row -->
+<div class="w3-row-padding w3-padding-64" id="acceptedpapers">
+
+<div class="w3-content">
+<h2>Accepted Papers</h2>
+</div>
+
+<div class="w3-content">  
+  <div class="w3-container">
+    <h3>TBD</h3>
+  </div>
+</div>
+
+</div>
+
+
+<!-- Schedule -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-center" id="schedule">
+
+<div class="w3-content">
+<h2>Schedule</h2>
+<h3>TBD</h3>
+</div>
+
+</div>
+
+<!-- Program Committee -->
+<div class="w3-row-padding w3-padding-64 w3-center" id="pc">
+<div class="w3-content">
+<h2>Program Committee</h2>
+<ul align="justify">
+    <li> Danqi Chen (Princeton)</li>
+    <li> Li Dong (Microsoft Research Asia)
+    <li> Xinya Du (Cornell)
+    <li> Kevin Duh (Johns Hopkins University)
+    <li> Ahmed Elgohary (University of Maryland)
+    <li> Hao Fang (Microsoft Semantic Machines)
+    <li> He He (New York University)
+    <li> Lifu Huang (UIUC)
+    <li> Srinivasan Iyer (University of Washington)
+    <li> Robin Jia (Stanford)
+    <li> Bernhard Kratzwald (ETH)
+    <li> Jayant Krishnamurthy (Microsoft Semantic Machines)
+    <li> Victoria Lin (Salesforce)
+    <li> Honglei Liu (Facebook Research)
+    <li> Jian-Guang Lou (Microsoft Research Asia)
+    <li> Yi Luan (Google Research)
+    <li> Siva Reddy (Stanford)
+    <li> Matthew Richardson (Microsoft Research)
+    <li> Jinfeng Rao (Facebook Conversational AI)
+    <li> Sameer Singh (UC Irvine)
+    <li> Shuyi Song (Zhejiang University)
+    <li> Yangqiu Song (HKUST)
+    <li> Xiang Ren (USC)
+    <li> Lingfei Wu (IBM Research)
+    <li> Ziyu Yao (Ohio State University)
+    <li> Mo Yu (IBM Research)
+    <li> Zhou Yu (UC Davis)
+    <li> Hamed Zamani (University of Massachussets Amherst)
+</ul>
+</div>        
+</div>
+
+
+<!-- Organizers Container -->
+<div class="w3-container w3-padding-64 w3-theme-l1 w3-center" id="organizers">
+<h2>Organizers</h2>
+<div class="row">
+  <div class="column">
+    <img src="images/ahmed.jpg" height=100 class="w3-circle w3-hover-opacity">
+    <a href="https://www.microsoft.com/en-us/research/people/hassanam/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fhassanam%2F"><p><b>Ahmed Hassan Awadallah</b></p></a>
+    <p>Microsoft Research</p>
+  </div>
+  <div class="column">
+      <img src="images/yusu.jpg" height=100 class="w3-circle w3-hover-opacity">
+      <a href="https://ysu1989.github.io"><p><b>Yu Su</b></p></a>
+      <p>The Ohio State University</p>
+  </div>
+  <div class="column">
+      <img src="images/huansun2018-2.png" height=100 class="w3-circle w3-hover-opacity">
+      <a href="http://web.cse.ohio-state.edu/~sun.397/"><p><b>Huan Sun</b></p></a>
+      <p>The Ohio State University</p>
+  </div>
+  <div class="column">
+      <img src="images/Scott.jpg" height=100 class="w3-circle w3-hover-opacity">
+      <a href="http://scottyih.org/"><p><b>Scott Wen-tau Yih</b></p></a>
+      <p>Facebook AI Research</p>
+  </div>
+</div>
+</div>
+
+<!--
+<div>
+    <div class="w3-center">
+      <img src="images/ahmed.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://www.microsoft.com/en-us/research/people/hassanam/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fhassanam%2F"><p><b>Ahmed Hassan Awadallah</b></p></a>
+      <p>Principal Research Manager, Microsoft Research</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Ahmed Hassan Awadallah is passionate about using AI and Machine Learning to create intelligent user experiences that connect people to information. He leads an applied research, rapid prototyping and incubation team in Microsoft Research Technologies. Their work at the Language and Information Technologies team is focused on creating language understanding and user modeling technologies to enable intelligent experiences in multiple products. Their work has been shipped in several products such as Bing, Cortana, Office 365, and Dynamics 365. He has hands-on experience building and shipping state-of-the-art ML/AI algorithms. He also has experience building and managing world-class teams of scientists and engineers. His research interests are at the intersection of machine learning, language understanding, and information retrieval. A key part of his work involves using Machine Learning to model large-scale text and user behavior data with applications to intelligent assistants, search, user modeling, quality evaluation, recommendation and personalization. He received his Ph.D. from the department of Computer Science and Engineering at the University of Michigan Ann Arbor. He Invented, published, and patented new approaches in language understanding, information retrieval and machine learning. He published 60+ peer-reviewed papers in these areas and he is an inventor on 20+ (granted and pending) patents.
+      </p>
+    </div>
+</div>
+<hr>
+
+<div>
+    <div class="w3-center">
+      <img src="images/yusu.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="https://sites.cs.ucsb.edu/~ysu/"><p><b>Yu Su</b></p></a>
+      <p> Assistant Professor, The Ohio State University <br/>
+          Senior Researcher, Microsoft Semantic Machines
+      </p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Yu Su is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. He got his PhD from the Department of Computer Science at University of California, Santa Barbara, advised by Xifeng Yan. Before coming to UC Santa Babara, he received his bachelor degree from the Department of Computer Science and Technology, Tsinghua University in 2012. He interned in IBM T.J. Watson Research Center (2015), Microsoft Research Redmond (2016 and 2017), and U.S. Army Research Laboratory (2015 and 2016). He has broad interests in understanding human languages, formal knowledge, and their interplay. Specifically, he has been working on natural language interfaces (an umbrella term for techniques like semantic parsing and dialog systems) for a wide range of backend data and services such as knowledge bases, web tables, and APIs. He is also interested in knowledge base construction and general text mining.
+      </p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/huansun2018-2.png" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="http://web.cse.ohio-state.edu/~sun.397/"><p><b>Huan Sun</b></p></a>
+      <p>Assistant Professor, The Ohio State University</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Huan Sun is an assistant professor in the Department of Computer Scienceand Engineering at the Ohio State University.  She was a visiting scientist atthe University of Washington in the first half of 2016, and received a Ph.D.in  Computer  Science  from  University  of  California,  Santa  Barbara  (2015)and a B.S. in EEIS from the University of Science and Technology of China(2010). Her research interests lie in data mining and machine learning, withemphasis  on  question  answering,  text  mining  and  understanding,  networkanalysis, and human behavior understanding.  Huan received the SIGKDDPh.D. Dissertation Runner-Up Award (2016), the honor of being MIT EECSRising Stars (2015), the UC Regents’ Special Fellowship (2010, 2014), andthe CS Ph.D. Progress Award (2014).</p>
+    </div>
+</div>
+<hr>
+<div>
+    <div class="w3-center">
+      <img src="images/Scott.jpg" style="width:15%" class="w3-circle w3-hover-opacity">
+      <a href="http://scottyih.org/"><p><b>Scott Wen-tau Yih</b></p></a>
+      <p>Research Scientist, Facebook AI Research (FAIR)</p>
+    </div>
+    <div class="w3-center">
+      <p align="justify">Scott Wen-tau Yih is a Research Scientist at Facebook AI Research (FAIR). His general research interests include natural language processing, machine learning and information retrieval. He has worked on a variety of problems over the years, including information extraction, semantic role labeling, email spam filtering, keyword extraction and search & ad relevance. His recent work focuses on continuous representations and neural network models, with applications in knowledge base embedding, semantic parsing and question answering. Before joining FAIR, he was a Principal Research Scientist at the Allen Institute for Artificial Intelligence (AI2). Prior to that he was a Senior Researcher at Microsoft Research (MSR).
+      </p>
+    </div>
+</div>
+</div>
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <!--Was 100px -->
+  <div style="position:relative;bottom:20px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
