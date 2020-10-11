@@ -1,3 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "/"
 url: "https://nlp4prog.github.io"
+
+sass:
+  sass_dir: _sass
+  style: :compressed
