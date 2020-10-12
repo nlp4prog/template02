@@ -1,0 +1,8 @@
+# SITE CONFIGURATION
+baseurl: "/workshop2020"
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+  style: compressed
