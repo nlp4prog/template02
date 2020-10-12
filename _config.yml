@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: /workshop2020
+baseurl: /workshop2021
 url: https://nlp4prog.github.io
 
 sass:
